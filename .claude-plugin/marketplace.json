@@ -1,0 +1,15 @@
+{
+  "name": "codeprint-plugins",
+  "description": "Codeprint 아키텍처 conformance 검사 도구를 Claude Code 스킬로 제공하는 마켓플레이스",
+  "owner": {
+    "name": "Codeprint",
+    "url": "https://github.com/PYB0514/codeprint"
+  },
+  "plugins": [
+    {
+      "name": "codeprint-conformance",
+      "source": "./plugins/codeprint-conformance",
+      "description": "무설정 아키텍처 conformance 검사 — DDD 구조 위반 탐지 + 토큰 절감 repo map (Java/Kotlin/TypeScript/TSX)"
+    }
+  ]
+}

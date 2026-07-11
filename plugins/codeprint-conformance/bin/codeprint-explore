@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# repo map/노드검색/이웃조회 — 번들된 codeprint-explore.jar 실행 (Java 17+ 필요)
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+exec java -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -jar "$DIR/../jars/codeprint-explore.jar" "$@"

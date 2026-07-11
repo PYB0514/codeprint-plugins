@@ -1,0 +1,14 @@
+{
+  "name": "codeprint-conformance",
+  "displayName": "Codeprint Conformance",
+  "version": "0.1.0",
+  "description": "무설정 아키텍처 conformance 검사 — DDD 구조 위반 탐지(HIGH_FAN_OUT·CROSS_DOMAIN_CALL 등) + 토큰 절감 repo map. Java/Kotlin/TypeScript/TSX 지원",
+  "author": {
+    "name": "박용빈",
+    "url": "https://github.com/PYB0514"
+  },
+  "homepage": "https://github.com/PYB0514/codeprint",
+  "repository": "https://github.com/PYB0514/codeprint",
+  "license": "MIT",
+  "keywords": ["architecture", "ddd", "conformance", "code-review", "token-savings"]
+}

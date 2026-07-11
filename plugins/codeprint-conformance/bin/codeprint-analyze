@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# DDD 구조 위반(GraphWarning) 탐지 — 번들된 codeprint-analyze.jar 실행 (Java 17+ 필요)
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+exec java -Dfile.encoding=UTF-8 -jar "$DIR/../jars/codeprint-analyze.jar" "$@"
