@@ -2,6 +2,8 @@
 
 [Codeprint](https://github.com/PYB0514/codeprint)의 아키텍처 conformance 검사 엔진을 Claude Code Skill로 감싼 마켓플레이스입니다. 코드베이스를 클론·컴파일하지 않고, 번들된 fat jar(Java 17+ 필요)로 바로 실행합니다.
 
+> 🚧 **베타 — 아직 미완성입니다.** 번들된 jar는 2026-07 시점 엔진이라 이후 추가된 경고 규칙이 빠져 있을 수 있고, 파일 500개를 넘는 레포는 일부만 분석됩니다(현재 출력에 절단 안내가 표시되지 않습니다). 최신 엔진은 [웹 서비스](https://codeprint-iota.vercel.app)에서 사용할 수 있습니다.
+
 ## 제공 스킬
 
 - **codeprint-explore** — 저장소 지도(파일별 역할 + 함수 목록)를 한 번에 생성해 Glob/Grep/Read 반복 탐색 대비 토큰을 절감합니다. `repoMap`/`find`/`neighbors` 3가지 모드를 지원합니다.
